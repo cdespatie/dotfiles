@@ -11,7 +11,10 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup("chris.plugins", {
+require("lazy").setup({
+  { import = "chris.plugins" },
+  { import = "chris.plugins.lsp" }
+}, {
   change_detection = {
     notify = false,
   }

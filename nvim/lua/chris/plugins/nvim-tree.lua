@@ -7,7 +7,7 @@ return {
 
     local nvimtree = require("nvim-tree")
     local keymap = vim.keymap
-    
+
     nvimtree.setup({
       view = {
         width = 40,
