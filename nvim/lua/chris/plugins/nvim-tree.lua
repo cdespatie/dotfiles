@@ -22,6 +22,6 @@ return {
     })
 
     keymap.set("n", "<leader>-", "<cmd>NvimTreeFindFileToggle<CR>", { desc = "Toggle the file explorer" })
-    keymap.set("n", "-", "<cmd>NvimTreeFocus<CR>", { desc = "Toggle the file explorer" })
+    keymap.set("n", "-", "<cmd>NvimTreeFocus<CR>", { desc = "Switch focus to the file explorer" })
   end
 }
