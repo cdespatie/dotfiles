@@ -4,6 +4,7 @@ local keymap = vim.keymap
 
 keymap.set("i", "jk", "<ESC>", { desc = "Exit insert mode with jk" })
 keymap.set("n", "<leader><leader>", ".", { desc = "Repeat last action by tapping leader twice" })
+keymap.set("n", "<leader>nh", ":nohlsearch<CR>", { desc = "Clear search highlights" })
 
 keymap.set("n", "<leader>s", "<c-W>v", { desc = "Create vertical split" })
 keymap.set("n", "<leader>h", "<c-W>s", { desc = "Create horizontal split" })
