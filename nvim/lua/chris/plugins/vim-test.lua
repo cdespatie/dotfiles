@@ -4,7 +4,7 @@ return {
     "benmills/vimux",
   },
   config = function()
-    vim.g.VimuxHeight = 20
+    vim.g.VimuxHeight = 30
     vim.g["test#strategy"] = "vimux"
 
     local keymap = vim.keymap
