@@ -11,7 +11,7 @@ return {
         enable = true,
       },
       indent = {
-        enable = true,
+        enable = false,
       },
       autotag = { -- uses nvim-ts-autotag plugin
         enable = true
