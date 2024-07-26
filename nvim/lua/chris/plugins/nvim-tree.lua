@@ -11,6 +11,7 @@ return {
     nvimtree.setup({
       view = {
         width = 40,
+        adaptive_size = true,
       },
       actions = {
         open_file = {
@@ -22,6 +23,6 @@ return {
     })
 
     keymap.set("n", "<leader>-", "<cmd>NvimTreeFindFileToggle<CR>", { desc = "Toggle the file explorer" })
-    keymap.set("n", "-", "<cmd>NvimTreeFocus<CR>", { desc = "Switch focus to the file explorer" })
+    keymap.set("n", "-", "<cmd>NvimTreeFindFile<CR>", { desc = "Switch focus to the file explorer" })
   end
 }
